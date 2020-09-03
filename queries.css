@@ -1,0 +1,65 @@
+@media only screen and  (max-width:1024px){
+    
+     .time-div{
+
+        font-family: 'Lora', serif;
+        font-size:50px;
+
+    }
+    
+     .time-span{
+    display:inline-block;
+    width:80px;
+    text-align: center;    
+
+    }
+    
+     .button-item{
+        color:#642B73;
+        background:#ffaf7b;
+        font-size:16px;
+        width:100px;
+        padding:3px;
+        margin:8px;
+        border:1px solid #ffaf7b;
+        border-radius:8px;
+        transition:margin-right 0.5s,font-weight 0.3s; /*allows smooth transition*/
+        cursor: pointer;
+    }
+    
+}
+
+@media only screen and  (max-width:767px){
+    
+    .time-div{
+
+        font-family: 'Lora', serif;
+        font-size:35px;
+
+    }
+    
+    .time-span{
+    display:inline-block;
+    width:60px;
+    text-align: center;    
+
+    }
+    
+     .button-item{
+        color:#642B73;
+        background:#ffaf7b;
+        font-size:14px;
+        width:70px;
+        padding:3px;
+        margin:8px;
+        border:1px solid #ffaf7b;
+        border-radius:8px;
+        transition:margin-right 0.5s,font-weight 0.3s; /*allows smooth transition*/
+        cursor: pointer;
+    }
+    
+}
+
+
+    
+    

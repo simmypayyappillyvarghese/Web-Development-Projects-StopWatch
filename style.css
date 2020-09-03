@@ -1,0 +1,54 @@
+    /*Flex Container*/
+    body{
+         background:#d9a7c7;  /*for older browser*/
+        background-image:-webkit-linear-gradient(to right, #d9a7c7, #fffcdc); 
+        background-image:linear-gradient( to right,#d9a7c7,#fffcdc);
+        color:#642B73;
+    }
+    .main-flex-container{
+
+        height:500px;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .time-div{
+
+        font-family: 'Lora', serif;
+        font-size:80px;
+
+    }
+
+    .time-span{
+    display:inline-block;
+    width:150px;
+    text-align: center;    
+
+    }
+
+
+    /*Flex Items*/
+    .button-item{
+        color:#642B73;
+        background:#ffaf7b;
+        font-size:18px;
+        width:110px;
+        padding:3px;
+        margin:8px;
+        border:1px solid #ffaf7b;
+        border-radius:8px;
+        transition:margin-right 0.5s,font-weight 0.3s; /*allows smooth transition*/
+         cursor: pointer;
+    }
+
+    .button-item:hover{
+
+        font-weight:600;
+        margin:8px 10px 8px 10px;
+
+    }
+
+    .button-item:focus{outline:none;} /*There will be an outline when you click on the button*/
